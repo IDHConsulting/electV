@@ -1,6 +1,6 @@
-# Project Title
+# electV
 
-One Paragraph of project description goes here
+Create and manage electronic vouchers and coupons
 
 ## Getting Started
 
