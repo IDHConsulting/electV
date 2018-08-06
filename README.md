@@ -8,60 +8,33 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-JDK 1.8
+Java	Java is the fundamental platform on which all the POS components (Core, VAS, EFT) are built. Minimum version required: Java 1.8	
 
+JavaFx	JavaFx (included with Java SE from version 1.8) is the GUI technology used to port the POS GUI interface from Java.AWT	
 
-### Installing
+JavaPos	JavaPos is the Java implementation of the UnifiedPOS specification. It provides an abstraction layer between the POS application and the connected peripheral de-vices, such as the printer, MSR, etc.	
 
-A step by step series of examples that tell you how to get a development env running
+HyperSQL	HSQLDB is the light-weight, embedded database which will be used for all the ported data structures	
 
-Say what the step will be
+Log4J	Log4J v2 will be used by all the components, to pro-vide improved logging with features like Rolling log files	
 
-```
-Give the example
-```
+Apache Tomcat	Apache Tomcat is the Servelet container that will host the VAS portal web application component	
 
-And repeat
+JSON	JSON will be used extensively as the base format for all API message communications between local and remote components. And for refactored data struc-tures associated with specific POS data, such as the new Tlog	
 
-```
-until finished
-```
+XML	XML will be used for legacy data structures associat-ed with specific POS data, such as Products, Promo-tions and Customers	
 
-End with an example of getting some data out of the system or using it for a little demo
+REST	REST styled API will be used for all web-services	
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+Rudder	Rudder Agent will be installed on each node, to ena-ble Application Deployment Automation and Monitor-ing through the use of the Rudder and CFEngine plat-form.	
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+Consult the deployment guide for full instructions.
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://gist.github.com/IDHConsulting/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
@@ -69,7 +42,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Anand Pillay** - *Initial work* - [IDH Consulting]
+* **IDH Consulting** - *Initial work* - [IDH Consulting]
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
